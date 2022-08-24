@@ -1,0 +1,18 @@
+{
+    "name": "tiojobs/binary-search",
+    "description": "The binary search algorithm in PHP",
+    "autoload": {
+        "psr-4": {
+            "Tiojobs\\BinarySearch\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tio Jobs",
+            "email": "icarojobsoficial@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "symfony/var-dumper": "^6.1"
+    }
+}
