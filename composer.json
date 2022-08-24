@@ -1,6 +1,6 @@
 {
     "name": "tiojobs/binary-search",
-    "description": "The binary search algorithm in PHP",
+    "description": "The best algorithms to study in PHP",
     "autoload": {
         "psr-4": {
             "Tiojobs\\BinarySearch\\": "src/"
