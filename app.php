@@ -18,7 +18,7 @@ $myArray = ['Icaro', 'Fabio', 'Antonio'];
 sort($myArray);
 
 try {
-    $position = $binarySearch->find('Antonio', $myArray);
+    $position = $binarySearch->find('Icaro', $myArray);
 
     dump("My array is on position '{$position}' and the value in the ordered array is '{$myArray[$position]}'");
 } catch (Exception $exception) {

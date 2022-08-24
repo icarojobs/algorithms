@@ -23,9 +23,10 @@ class BinarySearch
 
             if ($array[$middle] > $needle) {
                 $high = $middle - 1;
-            } else {
-                $low = $middle + 1;
+                continue;
             }
+
+            $low = $middle + 1;
         }
 
         throw new InvalidArgumentException("Valor não encontrado. Ordene o seu array com a função sort(array) e tente novamente.");
