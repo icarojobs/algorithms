@@ -8,9 +8,12 @@ declare(strict_types=1);
 
 require_once __DIR__ . '/vendor/autoload.php';
 
-$startTime = microtime(true);
+// $startTime = microtime(true);
 
 use Tiojobs\BinarySearch\Algorithms\BinarySearch;
+use Tiojobs\BinarySearch\Helpers\ExecutionTime;
+
+$executionTime = new ExecutionTime();
 
 $binarySearch = new BinarySearch();
 
@@ -23,9 +26,4 @@ try {
     dump("My array is on position '{$position}' and the value in the ordered array is '{$myArray[$position]}'");
 } catch (Exception $exception) {
     dump($exception->getMessage());
-} finally {
-    $endTime = microtime(true);
-    $executionTime = round(($endTime - $startTime), 2);
-
-    dump("Execution time of scrips was {$executionTime} seconds");
 }
