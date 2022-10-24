@@ -1,6 +1,6 @@
 ### The best algorithms to study in PHP
 
-This repository and source code was created by `Tio Jobs`. Follow his channel to learn more about programming:
+The main goal of this repository is to lear more about algorithms.
 
-[Youtube](https://youtube.com/c/TioJobs/) - Tio Jobs Channel's
-
+For more contents, please, watch my videos on youtube:
+[Tio Jobs Channel](https://youtube.com/c/TioJobs/join)
